@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cafe Shibah | Maua, Meru</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+body{
+background:#faf8f5;
+color:#333;
+}
+nav{
+position:fixed;
+top:0;
+width:100%;
+background:#111;
+padding:18px;
+display:flex;
+justify-content:center;
+gap:25px;
+z-index:1000;
+}
+nav a{
+color:#fff;
+text-decoration:none;
+font-weight:600;
+}
+header{
+background:url('https://images.unsplash.com/photo-1504674900247-0877df9cc836') center/cover no-repeat;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+position:relative;
+color:white;
+}
+header::before{
+content:"";
+position:absolute;
+inset:0;
+background:rgba(0,0,0,.6);
+}
+.hero{
+position:relative;
+z-index:2;
+padding:20px;
+}
+.hero h1{
+font-size:60px;
+margin-bottom:20px;
+}
+.hero p{
+font-size:22px;
+margin-bottom:30px;
+}
+.btn{
+display:inline-block;
+padding:15px 35px;
+background:#d4af37;
+color:white;
+text-decoration:none;
+border-radius:50px;
+font-weight:bold;
+}
+section{
+padding:80px 10%;
+}
+.section-title{
+text-align:center;
+font-size:40px;
+margin-bottom:40px;
+color:#5a3712;
+}
